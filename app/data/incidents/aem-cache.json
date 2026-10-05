@@ -1,0 +1,10 @@
+{
+  "incident": {
+    "title": "AEM Dispatcher serves stale content after activation",
+    "description": "Synthetic scenario: a page is current on author but still stale through Dispatcher and CDN. The replication queue and cache invalidation logs have not yet been inspected.",
+    "service": "content-delivery",
+    "severity": "SEV3",
+    "signals": ["Stale page after activation", "CDN age remains high"]
+  },
+  "top_k": 3
+}

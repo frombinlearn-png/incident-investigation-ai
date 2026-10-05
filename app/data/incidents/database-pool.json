@@ -1,0 +1,10 @@
+{
+  "incident": {
+    "title": "Checkout HTTP 503 and database connection acquisition timeouts",
+    "description": "Synthetic scenario: checkout latency rose after a deployment. Database logs report pool exhausted and too many connections. Confirm the cause before remediation.",
+    "service": "checkout-api",
+    "severity": "SEV2",
+    "signals": ["Connection acquisition timeout", "Database pool waiting connections increased", "HTTP 503 error rate increased"]
+  },
+  "top_k": 3
+}

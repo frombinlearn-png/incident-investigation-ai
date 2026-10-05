@@ -1,0 +1,8 @@
+include README.md pyproject.toml Dockerfile .dockerignore .gitignore .env.example
+include requirements.lock requirements-dev.lock
+recursive-include app *.py *.md *.json
+recursive-include tests *.py
+recursive-include docs *.md *.json
+recursive-include .github *.yml
+global-exclude *.pyc
+prune tests/__pycache__

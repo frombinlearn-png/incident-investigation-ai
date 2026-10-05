@@ -1,0 +1,10 @@
+{
+  "incident": {
+    "title": "Quantum interferometer misalignment",
+    "description": "Synthetic scenario: entangled photons exhibit anomalous polarization.",
+    "service": "optics-lab",
+    "severity": "SEV4",
+    "signals": []
+  },
+  "top_k": 3
+}
